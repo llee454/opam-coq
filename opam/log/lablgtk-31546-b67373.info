@@ -1,0 +1,5 @@
+[33m#[0m [33mcontext[0m     2.0.2 | linux/x86_64 | base-bigarray.base base-threads.base base-unix.base ocaml-system.4.05.0 | https://opam.ocaml.org/#e683ae62
+[33m#[0m [33mpath[0m        ~/.opam/system/.opam-switch/build/lablgtk.2.18.5
+[33m#[0m [33mcommand[0m     ~/.opam/opam-init/hooks/sandbox.sh build make world
+[33m#[0m [33menv-file[0m    ~/.opam/log/lablgtk-31546-b67373.env
+[33m#[0m [33moutput-file[0m ~/.opam/log/lablgtk-31546-b67373.out

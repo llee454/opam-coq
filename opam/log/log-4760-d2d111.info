@@ -1,0 +1,4 @@
+[33m#[0m [33mpath[0m        ~
+[33m#[0m [33mcommand[0m     /usr/bin/curl --write-out %{http_code}\n --retry 3 --retry-delay 2 --user-agent opam/2.0.4 -L -o /tmp/opam-4760-e7966f/index.tar.gz.part https://opam.ocaml.org/index.tar.gz
+[33m#[0m [33menv-file[0m    ~/.opam/log/log-4760-d2d111.env
+[33m#[0m [33moutput-file[0m ~/.opam/log/log-4760-d2d111.out

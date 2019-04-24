@@ -1,0 +1,25 @@
+opam-version: "2.0"
+maintainer: "dev@clarus.me"
+homepage: "https://github.com/clarus/coq-error-handlers"
+dev-repo: "git+https://github.com/clarus/coq-error-handlers.git"
+bug-reports: "https://github.com/clarus/coq-error-handlers/issues"
+authors: ["Guillaume Claret"]
+license: "MIT"
+build: [
+  ["./configure.sh"]
+  [make "-j%{jobs}%"]
+]
+install: [
+  [make "install"]
+]
+remove: ["rm" "-R" "%{lib}%/coq/user-contrib/ErrorHandlers"]
+depends: [
+  "ocaml"
+  "coq" {>= "8.4pl4"}
+]
+synopsis: "Simple and robust error handling functions."
+flags: light-uninstall
+url {
+  src: "https://github.com/clarus/coq-error-handlers/archive/1.2.0.tar.gz"
+  checksum: "md5=e485360ba31980d55cf053cf59b255e2"
+}

@@ -1,0 +1,7 @@
+[33m#[m [33mopam-version[m 1.2.2
+[33m#[m [33mos[m           linux
+[33m#[m [33mcommand[m      patch -p0 -i /home/larry/.opam/system/build/coq.8.9.0/Makefile.checker.patch --dry-run
+[33m#[m [33mpath[m         /home/larry/.opam/system/build/coq.8.9.0
+[33m#[m [33menv-file[m     /home/larry/.opam/log/log-9162-8b8a2d.env
+[33m#[m [33mstdout-file[m  /home/larry/.opam/log/log-9162-8b8a2d.out
+[33m#[m [33mstderr-file[m  /home/larry/.opam/log/log-9162-8b8a2d.err

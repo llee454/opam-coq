@@ -1,0 +1,4 @@
+[33m#[0m [33mpath[0m        ~
+[33m#[0m [33mcommand[0m     /usr/bin/curl --write-out %{http_code}\n --retry 3 --retry-delay 2 --user-agent opam/2.0.4 -L -o /home/larry/.opam/download-cache/sha256/3a/3a9b90684a710b23b2f83f020304f0fda48219725d7a9ea881ae49effd9afdeb.tmp.part https://opam.ocaml.org/cache/sha256/3a/3a9b90684a710b23b2f83f020304f0fda48219725d7a9ea881ae49effd9afdeb
+[33m#[0m [33menv-file[0m    ~/.opam/log/log-9666-42bb52.env
+[33m#[0m [33moutput-file[0m ~/.opam/log/log-9666-42bb52.out

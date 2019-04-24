@@ -1,0 +1,22 @@
+opam-version: "2.0"
+maintainer: "gmalecha@gmail.com"
+homepage: "https://github.com/gmalecha/coq-plugin-utils"
+bug-reports: "https://github.com/gmalecha/coq-plugin-utils/issues"
+license: "MIT"
+build: [
+  [make "-j%{jobs}%"]
+  [make "install"]
+]
+remove: ["rm" "-R" "%{lib}%/coq/user-contrib/PluginUtils"]
+depends: [
+  "ocaml"
+  "coq" {>= "8.5" & < "8.6~"}
+]
+synopsis: "Utility functions for implementing Coq plugins"
+authors: "Gregory Malecha"
+flags: light-uninstall
+url {
+  src:
+    "https://github.com/gmalecha/coq-plugin-utils/archive/v1.1.0-8.5.tar.gz"
+  checksum: "md5=9a4d59877f6eee9b4a8d0342b075d8b6"
+}

@@ -1,0 +1,4 @@
+repositories: [
+  "default" {"https://opam.ocaml.org/"}
+  "test" {"file:///home/larry/Projects/opam-coq-archive/released"}
+]

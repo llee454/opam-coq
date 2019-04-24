@@ -1,0 +1,20 @@
+opam-version: "2.0"
+synopsis:
+  "base-bigarray.base base-threads.base base-unix.base ocaml-system.4.05.0"
+opam-root: "/home/larry/.opam"
+paths {
+  etc: "/home/larry/.opam/system/etc"
+  share: "/home/larry/.opam/system/share"
+  man: "/home/larry/.opam/system/man"
+  toplevel: "/home/larry/.opam/system/lib/toplevel"
+  stublibs: "/home/larry/.opam/system/lib/stublibs"
+  doc: "/home/larry/.opam/system/doc"
+  sbin: "/home/larry/.opam/system/sbin"
+  bin: "/home/larry/.opam/system/bin"
+  lib: "/home/larry/.opam/system/lib"
+  prefix: "/home/larry/.opam/system"
+}
+variables {
+  group: "larry"
+  user: "larry"
+}

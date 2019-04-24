@@ -1,0 +1,9 @@
+base-bigarray	base	root
+base-num	base	installed
+base-threads	base	root
+base-unix	base	root
+camlp5	7.06	installed
+conf-m4	1	installed
+coq	8.8.1	root
+num	0	installed
+ocamlfind	1.8.0	installed
